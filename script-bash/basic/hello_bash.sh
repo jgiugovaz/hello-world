@@ -18,3 +18,7 @@ name=John
 echo "Hi $name"
 echo -n "Hi $name again"
 
+echo '********* Display Print *****'
+lname="Smith Jr."
+printf "Hello %s %s! Your name is %d\n" $name "$lname" 98
+
