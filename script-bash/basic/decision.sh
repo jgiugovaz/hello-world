@@ -9,7 +9,6 @@ if  [ -e "$fname" ]; then
 fi
 
 #new version
-
 if [[ $fname == $par1 ]]; then
 
 	echo Filename is required
