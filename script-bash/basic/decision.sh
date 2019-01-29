@@ -8,10 +8,10 @@ if  [ -e "$fname" ]; then
 	echo File $fname exists
 fi
 
-#new version
+#new version (recommanded)
 if [[ $fname == $par1 ]]; then
 
-	echo Filename is required
+	echo "Parameter Filename is required"
 
 else
 
