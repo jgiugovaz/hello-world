@@ -3,7 +3,7 @@
 par1=NO_VALUE
 fname=${1:-$par1}
 
-#old version
+#old version (not recommanded)
 if  [ -e "$fname" ]; then
 	echo File $fname exists
 fi

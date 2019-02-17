@@ -2,12 +2,12 @@
 #Section 4 - Shell Expansions
 
 echo '*********************'
-echo 'Variable Expansion      '
+echo 'Variable Expansion   '
 echo '*********************'
 count=12
 echo $count
 echo ${count}th
- 
+
 echo ' '
 echo '*********************'
 echo 'Brace Expansion      '
